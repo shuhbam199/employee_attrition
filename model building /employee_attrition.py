@@ -234,7 +234,7 @@ grid.best_estimator_
 
 import pickle
 
-with open('rf.pkl', 'wb') as f:
+with open('../rf.pkl', 'wb') as f:
     pickle.dump(grid.best_estimator_, f)
 from google.colab import files
 files.download('rf.pkl')
