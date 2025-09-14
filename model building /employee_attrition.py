@@ -20,6 +20,8 @@ df.info()
 
 df['Attrition'].value_counts()
 
+##Trial for git push
+
 df_new =  df[['MaritalStatus_Single','EducationField','JobRole','MaritalStatus_Married','StockOptionLevel','JobSatisfaction','MonthlyIncome','MonthlyRate','OverTime','Age']]
 
 """No field with null cells"""
